@@ -97,11 +97,11 @@ Outside the lab you will find me running, cycling, bikepacking, swimming, playin
 
       <tr onmouseout="cvpr12_stop()" onmouseover="cvpr12_start()">
         <td style="padding:16px;width:20%;vertical-align:middle">
-          <div class="one" style="height: 120px; width: 120px;">
-            <div class="two" id='cvpr12_image' style="height: 120px; width: 120px;">
-              <img src='images/green_shades_1.png' style="border-style: none; width: 120px; height: 120px; object-fit: cover;">
+          <div class="one" style="height: 160px; width: 160px;">
+            <div class="two" id='cvpr12_image' style="height: 160px; width: 160px;">
+              <img src='images/green_shades_1.png' style="border-style: none; width: 160px; height: 160px; object-fit: cover;">
             </div>
-            <img src='images/green_shades_2.png' style="border-style: none; width: 120px; height: 120px; object-fit: cover;">
+            <img src='images/green_shades_2.png' style="border-style: none; width: 160px; height: 160px; object-fit: cover;">
           </div>
           <script type="text/javascript">
             function cvpr12_start() {
@@ -139,37 +139,56 @@ Outside the lab you will find me running, cycling, bikepacking, swimming, playin
         </td>
       </tr>
 
-            <tr>
-              <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src="images/uncertain.png" alt="b3do" width="160" style="border-style: none">
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
-                <a href="https://arxiv.org/pdf/2209.13008">
-                  <span class="papertitle">USE-Evaluator: Performance metrics for medical image segmentation models supervised by uncertain, small or empty reference annotations</span>
-                </a>
-                <br>
-                <strong>Sophie Ostmeier</strong>,
-                <a href="https://cs.stanford.edu/people/baxelrod/">Brian Axelrod</a>,
-                Fabian Isensee,
-                Jeroen Bertels,
-                Michael Mlynash,
-                Soren Christensen,
-                Maarten G Lansberg,
-                Gregory W Albers,
-                Rajen Sheth,
-                Benjamin FJ Verhaaren,
-                Abdelkader Mahammedi,
-                Li-Jia Li,
-                Greg Zaharchuk,
-                Jeremy J Heit
-                <br>
-                <em>Medical Image Analysis</em>, 2024
-                <br>
-                <a href="https://arxiv.org/pdf/2209.13008">arXiv</a> /
-                <a href="https://github.com/SophieOstmeier/USE-Evaluator">code</a>
-                <p>We investigate evaluation metrics for medical image segmentation that account for uncertainty, small structures, and empty reference annotations.</p>
-              </td>
-            </tr>
+      <tr>
+        <!-- <td style="padding:16px;width:20%;vertical-align:middle">
+          <img src="images/uncertain.png" alt="b3do" width="160" style="border-style: none">
+        </td> -->
+          <tr onmouseout="cvpr12_stop()" onmouseover="cvpr12_start()">
+        <td style="padding:16px;width:20%;vertical-align:middle">
+          <div class="one" style="height: 160px; width: 160px;">
+            <div class="two" id='cvpr12_image' style="height: 160px; width: 160px;">
+              <img src='images/uncertain_1.png' style="border-style: none; width: 160px; height: 160px; object-fit: cover;">
+            </div>
+            <img src='images/uncertain_2.png' style="border-style: none; width: 160px; height: 160px; object-fit: cover;">
+          </div>
+          <script type="text/javascript">
+            function cvpr12_start() {
+              document.getElementById('cvpr12_image').style.opacity = "1";
+            }
+
+            function cvpr12_stop() {
+              document.getElementById('cvpr12_image').style.opacity = "0";
+            }
+            cvpr12_stop()
+          </script>
+        </td>
+        <td style="padding:8px;width:80%;vertical-align:middle">
+          <a href="https://arxiv.org/pdf/2209.13008">
+            <span class="papertitle">USE-Evaluator: Performance metrics for medical image segmentation models supervised by uncertain, small or empty reference annotations</span>
+          </a>
+          <br>
+          <strong>Sophie Ostmeier</strong>,
+          <a href="https://cs.stanford.edu/people/baxelrod/">Brian Axelrod</a>,
+          Fabian Isensee,
+          Jeroen Bertels,
+          Michael Mlynash,
+          Soren Christensen,
+          Maarten G Lansberg,
+          Gregory W Albers,
+          Rajen Sheth,
+          Benjamin FJ Verhaaren,
+          Abdelkader Mahammedi,
+          Li-Jia Li,
+          Greg Zaharchuk,
+          Jeremy J Heit
+          <br>
+          <em>Medical Image Analysis</em>, 2024
+          <br>
+          <a href="https://arxiv.org/pdf/2209.13008">arXiv</a> /
+          <a href="https://github.com/SophieOstmeier/USE-Evaluator">code</a>
+          <p>We investigate evaluation metrics for medical image segmentation that account for uncertainty, small structures, and empty reference annotations.</p>
+        </td>
+      </tr>
 
             <!-- <tr>
               <td style="padding:16px;width:20%;vertical-align:middle">
