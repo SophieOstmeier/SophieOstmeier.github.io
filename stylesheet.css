@@ -140,3 +140,11 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+
+#mapmyvisitors .marker-dot {
+  width: 16px !important;
+  height: 16px !important;
+  background-color: blue !important;
+  border: 2px solid white !important;
+  border-radius: 50% !important;
+}
