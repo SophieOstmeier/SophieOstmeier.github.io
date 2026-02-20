@@ -64,6 +64,49 @@ Outside the lab you will find me running, cycling, bikepacking, swimming, playin
     <tr onmouseout="video_stop()" onmouseover="video_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
         <video id="liere_video" width="160" height="160" muted loop style="filter: brightness(1.5);">
+          <source src="images/check_wrong_short.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <script type="text/javascript">
+          function video_start() {
+            document.getElementById('liere_video').play();
+          }
+
+          function video_stop() {
+            document.getElementById('liere_video').pause();
+          }
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://www.arxiv.org/abs/2602.13699">
+          <span class="papertitle">Head Entropy predicts answer correctness</span>
+        </a>
+        <br>
+        <strong>Sophie Ostmeier</strong>,
+        <a href="https://cs.stanford.edu/people/baxelrod/">Brian Axelrod</a>,
+        <a href="https://maya-varma.com">Maya Varma</a>,
+		<a href="https://asadaali.com">Asad Ali</a>,
+		<a href="https://ybzh.github.io">Yabin Zhang</a>,
+		<a href="https://magdapaschali.com">Magda Paschali</a>,
+		<a href="https://cs.stanford.edu/~sanmi/">Sanmi Koyejo</a>,
+		<a href="https://curtlanglotz.com">Curtis Langlotz</a>,
+        <a href="https://med.stanford.edu/mimi/people/CurrentLab.html">Akshay Chaudhari</a>,
+        <br>
+        <!-- <em>Arxiv</em>, 2026
+        <!-- <br>
+        <a href="https://szymanowiczs.github.io/bolt3d">project page</a> -->
+        / -->
+        <a href="https://www.arxiv.org/abs/2602.13699">arXiv</a>
+        <p></p>
+        <p>
+            Head Entropy predicts LLM answer correctness by analyzing attention entropy patterns across attention heads, matching or outperforming existing methods in-distribution and generalizing significantly better out-of-domain across multiple models and QA datasets.
+        </p>
+      </td>
+    </tr>
+
+    <tr onmouseout="video_stop()" onmouseover="video_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <video id="liere_video" width="160" height="160" muted loop style="filter: brightness(1.5);">
           <source src="images/liere_wheel.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
