@@ -81,7 +81,7 @@ Outside the lab you will find me running, cycling, bikepacking, swimming, playin
       </td>
       <td style="padding:8px;width:80%;vertical-align:middle">
         <a href="https://www.arxiv.org/abs/2602.13699">
-          <span class="papertitle">Attention Head Entropy of LLMs Predicts Answer Correctness</span>
+          <span class="papertitle">Gradient-Stable Attention Heads Signal LLM Correctness</span>
         </a>
         <br>
         <strong>Sophie Ostmeier</strong>,
@@ -94,13 +94,13 @@ Outside the lab you will find me running, cycling, bikepacking, swimming, playin
 		<a href="https://curtlanglotz.com">Curtis Langlotz</a>,
         <a href="https://med.stanford.edu/mimi/people/CurrentLab.html">Akshay Chaudhari</a>
         <br>
+		<em>EMNLP, Findings track</em>, 2026
         <!-- <em>Arxiv</em>, 2026 -->
         <!-- <br> -->
         <a href="https://www.arxiv.org/abs/2602.13699">arXiv</a>
         <p></p>
         <p>
-            Head Entropy predicts LLM answer correctness by analyzing attention entropy patterns across attention heads, matching or outperforming existing methods in-distribution and generalizing significantly better out-of-domain across multiple models and QA datasets.
-        </p>
+We investigated if a method can estimate answer correctness with access only to the attention-based model, the prompt, and its answer. Our method, HeadEntropy, uses a simple statistic that measures how sensitive each attention pattern would be to gradient updates. With no training, HeadEntropy reaches 0.74 AUROC over 5 models and 5 benchmarks, beats all 6 training-free baselines on average, and matches a trained hidden-state probe out-of-domain.		</p>
       </td>
     </tr>
 
